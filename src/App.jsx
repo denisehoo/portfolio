@@ -10,7 +10,7 @@ function App() {
         fov: 64,
         position: [2.3, 1.5, 2.3],
       }}
-      touch-action="auto">
+      overflow="scroll">
       <Experience />
     </Canvas>
   )
