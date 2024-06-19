@@ -12,7 +12,7 @@ const Section = (props) => {
         opacity: props.opacity,
       }}
     >
-      <div className="w-[65%] flex items-center justify-center">
+      <div className="w-[90%] sm:w-[65%] flex items-center justify-center">
         <div className="w-full">
           <div className="bg-white  rounded-lg px-8 py-12">
             {props.children}
@@ -59,25 +59,15 @@ export const Overlay = () => {
           <p className="mt-3">
             <b>Frontend 🚀</b>
           </p>
-          <ul className="leading-9">
-            <li>Angular Ionic</li>
-            <li>React Native</li>
-            <li>ReactJS, ViteJS</li>
-            <li>Tailwind</li>
-            <li>Java</li>
-          </ul>
+          <p className="leading-9">
+            Angular | Ionic | React Native| ReactJS | ViteJS | Tailwind
+          </p>
           <p className="mt-3">
             <b>Backend 🔬</b>
           </p>
-          <ul className="leading-9">
-            <li>NodeJS</li>
-            <li>C# .net core</li>
-            <li>Microsoft SQL, Oracle SQL</li>
-            <li>IIS, Apigee, Azure</li>
-            <li>Unix bash command</li>
-            <li>Apache Nifi, GCP</li>
-            <li>Splunk, PowerBI, Tableau</li>
-          </ul>
+          <p className="leading-9">
+            NodeJS | C# .net core | Microsoft SQL | Oracle SQL | Java | IIS | Apigee | Azure | Unix Bash Command | Apache Nifi | GCP | Splunk | PowerBI | Tableau 
+          </p>
           <p className="animate-bounce  mt-6">↓ Scroll to see more</p>
         </Section>
         <Section opacity={opacityLastSection}>
@@ -87,9 +77,9 @@ export const Overlay = () => {
           <p className="text-gray-500">
             AI is my new interest, and I'm always learning. 
           </p>
-          <p className="mt-6 p-3 bg-slate-200 rounded-lg">
-            
-          </p>
+          <ul className="leading-9 pt-3">
+            <li><a href="https://github.com/denisehoo/LearningProject">Cubator - [React Native Expo]</a></li>
+          </ul>
         </Section>
       </div>
     </Scroll>
