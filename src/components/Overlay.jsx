@@ -45,7 +45,7 @@ export const Overlay = () => {
           <p className="text-gray-500">Welcome & nice to meet you</p>
           <p className="mt-3">As aspiring IT graduate, my career actually begun as Procurement Analyst.</p>
           <p className="mt-3">I self-learned <b>C# ASP.net IIS</b> and my app helped company <b>cost-saving 1mil</b>.</p>
-          <p className="mt-3">Embracing my passion, I switched career as <b>UI/UX developer</b>.</p>
+          <p className="mt-3">Embracing my passion, I switched career as <b>UI/UX developer</b> and acquired <b>WPF, MVC and Pencil</b>.</p>
           <p className="mt-3">Next I stepped up as DevOps <b>Senior Full-stack developer</b>.</p>
           <ul className="leading-9 pt-3">
             <li className="animate-pulse duration-500">🧑‍💻 <a href="https://www.linkedin.com/in/hoopeiying/">Linkedin</a></li>
@@ -67,6 +67,12 @@ export const Overlay = () => {
           </p>
           <p className="leading-9">
             NodeJS | C# .net core | Microsoft SQL | Oracle SQL | Java | IIS | Apigee | Azure | Unix Bash Command | Apache Nifi | GCP | Splunk | PowerBI | Tableau 
+          </p>
+          <p className="mt-3">
+            <b>Other 🧑‍💻</b>
+          </p>
+          <p className="leading-9">
+            Agile Scrum | TDD | Kanban TFS | Confluence | CI/CD Azure
           </p>
           <p className="animate-bounce  mt-6">↓ Scroll to see more</p>
         </Section>
