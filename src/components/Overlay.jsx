@@ -12,7 +12,7 @@ const Section = (props) => {
         opacity: props.opacity,
       }}
     >
-      <div className="w-[90%] sm:w-[65%] flex items-center justify-center">
+      <div className="w-[90%] sm:w-[50%] flex items-center justify-center">
         <div className="w-full">
           <div className="bg-white  rounded-lg px-8 py-12">
             {props.children}
